@@ -13,7 +13,7 @@ void merge(int a[], int l, int m, int r)
         lArray[k] = a[i];
         k++;
     }
-    k = 0; 
+    k = 0;
     for (int i = m + 1; i <= r; i++)
     {
         rArray[k] = a[i];
